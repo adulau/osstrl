@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="28" role="img" aria-label="OSSTRL level 7 of 9">
+  <title>OSSTRL level 7 of 9</title>
+  <desc>7 of 9 rainbow arcs are coloured.</desc>
+  <defs>
+    <linearGradient id="label" x2="0" y2="1">
+      <stop stop-color="#555" offset="0"/>
+      <stop stop-color="#333" offset="1"/>
+    </linearGradient>
+    <linearGradient id="level" x2="0" y2="1">
+      <stop stop-color="#4b5563" offset="0"/>
+      <stop stop-color="#2f3640" offset="1"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="160" height="28" rx="4"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="74" height="28" fill="url(#label)"/>
+    <rect x="74" width="86" height="28" fill="url(#level)"/>
+  </g>
+  <g fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" text-anchor="middle">
+    <text x="37" y="18" font-size="11" font-weight="600">OSSTRL</text>
+    <text x="101" y="18" font-size="11" font-weight="700">7/9</text>
+  </g>
+  <path d="M 131 19 A 11 11 0 0 1 153 19" fill="none" stroke="#e53935" stroke-width="1.8" opacity="1"/>
+  <path d="M 132 19 A 10 10 0 0 1 152 19" fill="none" stroke="#f57c00" stroke-width="1.8" opacity="1"/>
+  <path d="M 133 19 A 9 9 0 0 1 151 19" fill="none" stroke="#fbc02d" stroke-width="1.8" opacity="1"/>
+  <path d="M 134 19 A 8 8 0 0 1 150 19" fill="none" stroke="#c0ca33" stroke-width="1.8" opacity="1"/>
+  <path d="M 135 19 A 7 7 0 0 1 149 19" fill="none" stroke="#43a047" stroke-width="1.8" opacity="1"/>
+  <path d="M 136 19 A 6 6 0 0 1 148 19" fill="none" stroke="#00acc1" stroke-width="1.8" opacity="1"/>
+  <path d="M 137 19 A 5 5 0 0 1 147 19" fill="none" stroke="#1e88e5" stroke-width="1.8" opacity="1"/>
+  <path d="M 138 19 A 4 4 0 0 1 146 19" fill="none" stroke="#707070" stroke-width="1.8" opacity=".45"/>
+  <path d="M 139 19 A 3 3 0 0 1 145 19" fill="none" stroke="#707070" stroke-width="1.8" opacity=".45"/>
+</svg>

@@ -55,6 +55,27 @@ owner/project: OSSTRL 7/9 | score 76.4% | confidence 100.0%
 
 Or a sample markdown report available at [vulnerability-lookup.md](./samples/vulnerability-lookup.md)
 
+## OSSTRL badges
+
+Each OSSTRL level has a matching badge. The rainbow grows by one coloured arc
+at every level, so an OSSTRL 9 project displays the complete rainbow.
+
+| | | |
+|---|---|---|
+| ![OSSTRL level 1](./badges/osstrl-1.svg) | ![OSSTRL level 2](./badges/osstrl-2.svg) | ![OSSTRL level 3](./badges/osstrl-3.svg) |
+| ![OSSTRL level 4](./badges/osstrl-4.svg) | ![OSSTRL level 5](./badges/osstrl-5.svg) | ![OSSTRL level 6](./badges/osstrl-6.svg) |
+| ![OSSTRL level 7](./badges/osstrl-7.svg) | ![OSSTRL level 8](./badges/osstrl-8.svg) | ![OSSTRL level 9](./badges/osstrl-9.svg) |
+
+To add a badge to a repository, select the SVG that matches the level in the
+latest OSSTRL report and link it to this project. For example:
+
+```markdown
+[![OSSTRL level 7](https://raw.githubusercontent.com/adulau/osstrl/main/badges/osstrl-7.svg)](https://github.com/adulau/osstrl)
+```
+
+Use `osstrl-N.svg`, replacing `N` with a level from 1 through 9. Please do not
+use a badge for a level higher than the latest assessment.
+
 ## GitHub evidence currently gathered
 
 ### Community
