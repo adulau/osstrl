@@ -2,7 +2,7 @@
 
 An open-source application that estimates an **Open Source Software Technology Readiness Level (OSSTRL) 1–9** from evidence that can be gathered automatically from a GitHub repository.
 
-### OSSTRL vs. traditional TRL
+### OSSTRL vs. [traditional TRL](https://en.wikipedia.org/wiki/Technology_readiness_level)
 
 | | OSSTRL | Traditional Technology Readiness Level (TRL) |
 |---|---|---|
