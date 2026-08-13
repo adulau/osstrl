@@ -1,4 +1,4 @@
-# OSSTRL — Apereo/GitHub prototype
+# OSSTRL - Open Source Software Technology Readiness Level (OSSTRL) 1–9
 
 An open-source application that estimates an **Open Source Software Technology Readiness Level (OSSTRL) 1–9** from evidence that can be gathered automatically from a GitHub repository.
 
@@ -118,7 +118,9 @@ GitHub REST API documentation:
 The software is open-source under a 2-clause BSD license.
 
 Copyright 2018-2026 Alexandre Dulaunoy - a@foo.be
+
 Copyright 2026 ossbase.org
+
 Copyright 2026 CIRCL - Computer Incident Response Center Luxembourg
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
