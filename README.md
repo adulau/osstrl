@@ -2,6 +2,18 @@
 
 An open-source application that estimates an **Open Source Software Technology Readiness Level (OSSTRL) 1–9** from evidence that can be gathered automatically from a GitHub repository.
 
+### OSSTRL vs. traditional TRL
+
+| | OSSTRL | Traditional Technology Readiness Level (TRL) |
+|---|---|---|
+| **Purpose** | Estimates the readiness and sustainability of an open-source software project | Assesses the maturity of a technology from basic principles through operational use |
+| **Primary evidence** | Automatically observable GitHub repository signals | Experimental validation, demonstrations, deployment and operational evidence |
+| **Focus** | Community, governance, development, support, security and privacy | Technical maturity in increasingly realistic environments |
+| **Output** | A 1–9 estimate plus an evidence score and confidence/coverage | A 1–9 level supported by domain-specific review |
+| **Key limitation** | Cannot prove adoption or performance in an operational environment from repository data alone | Does not by itself evaluate open-source project health or sustainability |
+
+OSSTRL complements rather than replaces a formal TRL assessment: it makes open-source project readiness visible using evidence that can be collected consistently from a repository.
+
 The evidence model is **inspired by the [Apereo OSS Health and Sustainability Rubric](https://github.com/apereo/oss-rubric)**. It intentionally does **not** claim to reproduce the complete Apereo assessment: the Apereo rubric contains 40+ criteria, and several important maturity facts cannot be proven from a GitHub repository alone (real-world implementations, actual adoption, funding sustainability, accessibility conformance, deployment environment, etc.).
 
 Instead, this application does the following:
