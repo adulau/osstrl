@@ -25,6 +25,9 @@ Instead, this application does the following:
 5. applies readiness gates so documentation alone cannot produce a high level;
 6. reports evidence coverage/confidence separately from the score.
 
+For more details, I wrote a blog post - [How mature is this repository? My long quest for open-source software metrics
+](https://foo.be/2026/08/Open-Source-Metrics.html)
+
 ## Install
 
 ```bash
