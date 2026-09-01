@@ -131,6 +131,22 @@ The category weights total 100 points:
 
 These weights and the OSSTRL thresholds are **prototype choices, not Apereo's official scoring weights**. They are all explicit in `osstrl.py` so they can be reviewed and changed.
 
+### OSSTRL level descriptions
+
+| OSSTRL | Evidence score | Description |
+|---:|---:|---|
+| **1** | Below 15% | **Initial:** Very little repository evidence of open-source project readiness is available. |
+| **2** | 15%–24.99% | **Emerging:** Some basic project artifacts or activity are visible, but the readiness evidence remains limited. |
+| **3** | 25%–34.99% | **Basic foundation:** The project has a detectable license and README, alongside a growing set of community or development signals. |
+| **4** | 35%–44.99% | **Active development:** The repository shows development activity within the last year and a broader foundation of project practices. |
+| **5** | 45%–54.99% | **Repeatable delivery:** The project has CI or automated tests, at least one stable release, and contributions from at least two people. |
+| **6** | 55%–64.99% | **Established:** Recent development, a release within the last year, and at least five contributors indicate an established project. |
+| **7** | 65%–74.99% | **Sustained:** At least two years of history, ten contributors, and security or governance documentation demonstrate sustained readiness. |
+| **8** | 75%–84.99% | **Mature:** At least three years of history, twenty contributors, governance documentation, and a security policy support mature operation. |
+| **9** | 85% or above | **Highly mature:** At least five years of history, thirty contributors, a Code of Conduct, CI, tests, and five stable releases in the last two years provide the strongest repository-verifiable evidence. |
+
+The score range determines the initial level, while the descriptions for levels 3–9 include the minimum readiness gates needed to retain that level. A project whose evidence score reaches a level but does not meet all of its gates is capped at the highest level whose gates it satisfies.
+
 The aggregate score is mapped to 1–9, then gates cap advanced levels when essential evidence is missing. For example, OSSTRL 5+ requires a stable release and multiple contributors; OSSTRL 8+ requires sustained history, governance documentation and a security policy.
 
 ## Important limitation
